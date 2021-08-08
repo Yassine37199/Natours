@@ -1,0 +1,42 @@
+body {
+    padding: 25px; 
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: $color-gray-dark;
+
+}
+
+
+.text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+
+    .heading-primary {
+        color: $color-white;
+        text-transform: uppercase;
+        backface-visibility: hidden;
+        margin-bottom: 60px;
+
+
+        .heading-primary-main {
+            display: block;
+            font-size: 60px;
+            font-weight: 400;
+            letter-spacing: 35px;
+            animation: moveToRight 1s;
+        }
+
+        .heading-primary-sub {
+            display: block;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 17.4px;
+            animation: moveToLeft 1s;
+        }
+    }
+}
