@@ -17,10 +17,27 @@ const MainPage = () => (
                     <span className="heading-primary-main">Outdoors</span>
                     <span className="heading-primary-sub">is where life happens</span>
                 </h1>
-
                 <a href="#" className="btn btn-white btn-animated">Discover our tours</a>
             </div>
         </header>
+
+        <main>
+            <section className="section-about">
+                <div className="u-center-text u-margin-bottom-8">
+                    <h2 className="heading-secondary">
+                        Exciting tours for adventurous people
+                    </h2>
+                </div>
+                    <div className="row">
+                        <div className="col-1-of-2">
+                            text
+                        </div>
+                        <div className="col-1-of-2">
+                            images
+                        </div>
+                    </div>
+            </section>
+        </main>
     </div>
 )
 
