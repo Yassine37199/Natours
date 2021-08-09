@@ -23,14 +23,27 @@ const MainPage = () => (
 
         <main>
             <section className="section-about">
-                <div className="u-center-text u-margin-bottom-8">
+                <div className="u-center-text u-margin-bottom-large">
                     <h2 className="heading-secondary">
                         Exciting tours for adventurous people
                     </h2>
                 </div>
                     <div className="row">
                         <div className="col-1-of-2">
-                            text
+                            <h3 className="heading-tertiary u-margin-bottom-small">
+                                You're going to fall in love with nature
+                            </h3>
+                            <p className="paragraph">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus sint ducimus eum, voluptates, quos debitis soluta vero dignissimos consequuntur est distinctio, nostrum dolorem? Quia, recusandae ex voluptatem atque ipsum sit.
+                            </p>
+                            <h3 className="heading-tertiary u-margin-bottom-small">
+                                Live adventures like you never have before
+                            </h3>
+                            <p className="paragraph">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum sapiente alias, neque nam officia id aut
+                            </p>
+
+                            <a href="#" className="btn-text">Learn More &rarr;</a>
                         </div>
                         <div className="col-1-of-2">
                             images

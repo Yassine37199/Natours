@@ -2,7 +2,7 @@ body {
     padding: 25px; 
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: $default-font-size;
     line-height: 1.7;
     color: $color-gray-dark;
 
@@ -25,7 +25,7 @@ body {
 
         .heading-primary-main {
             display: block;
-            font-size: 60px;
+            font-size: 6rem;
             font-weight: 400;
             letter-spacing: 35px;
             animation: moveToRight 1s;
@@ -33,7 +33,7 @@ body {
 
         .heading-primary-sub {
             display: block;
-            font-size: 20px;
+            font-size: 2rem;
             font-weight: 700;
             letter-spacing: 17.4px;
             animation: moveToLeft 1s;
@@ -52,4 +52,19 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+}
+
+.heading-tertiary {
+    font-size: $default-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.paragraph {
+    font-size: 1.4rem;
+      
+    &:not(:last-child){
+        margin-bottom: 3rem;
+    }
 }
