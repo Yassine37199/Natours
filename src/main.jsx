@@ -1,6 +1,9 @@
 import React from 'react'
 import './styles/main.scss'
 import logo from './img/logo-white.png';
+import nat1 from './img/nat-1-large.jpg'
+import nat2 from './img/nat-2-large.jpg'
+import nat3 from './img/nat-3-large.jpg'
 
 
 
@@ -46,7 +49,11 @@ const MainPage = () => (
                             <a href="#" className="btn-text">Learn More &rarr;</a>
                         </div>
                         <div className="col-1-of-2">
-                            images
+                            <div className="composition">
+                                <img src={nat1} alt="Photo 1" className="composition__photo composition__photo--p1" />
+                                <img src={nat2} alt="Photo 2" className="composition__photo composition__photo--p2" />
+                                <img src={nat3} alt="Photo 3" className="composition__photo composition__photo--p3" />
+                            </div>
                         </div>
                     </div>
             </section>
