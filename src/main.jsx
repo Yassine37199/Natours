@@ -4,7 +4,7 @@ import logo from './img/logo-white.png';
 
 
 
-
+ 
 const MainPage = () => (
     <div>
         <header className="header">
