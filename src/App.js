@@ -1,4 +1,3 @@
-import logo from './img/logo-white.png';
 import './App.css';
 import MainPage from './main';
 
