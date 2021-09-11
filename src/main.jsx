@@ -52,6 +52,8 @@ const MainPage = () => (
                     </div>
                 </div>
             </section>
+            <section className="feature-section">
+            </section>
         </main>
     </div>
 )
