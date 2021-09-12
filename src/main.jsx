@@ -4,6 +4,8 @@ import logo from './img/logo-white.png';
 import nat1 from './img/nat-1-large.jpg';
 import nat2 from './img/nat-2-large.jpg';
 import nat3 from './img/nat-3-large.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobeEurope } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -52,7 +54,18 @@ const MainPage = () => (
                     </div>
                 </div>
             </section>
-            <section className="feature-section">
+            <section className="features-section">
+                <div className="row">
+                    <div className="col-1-of-4">
+                        <div className="feature-box u-center-text ">
+                            <FontAwesomeIcon icon={faGlobeEurope} className="feature-box__icon" />
+                            <h3 className="heading-tertiary u-margin-bottom-small">Explore the world</h3>
+                            <p className="feature-box__text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis harum voluptates pariatur accusamus veniam maxime porro natus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
     </div>

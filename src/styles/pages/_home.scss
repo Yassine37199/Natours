@@ -14,3 +14,9 @@
     margin-top: -20rem;
     clip-path: polygon(0 20% , 100% 0 , 100% 85vh , 0 100%);
 }
+
+.features-section {
+    padding: 20rem 0;
+    background-image: linear-gradient(to right , rgba($color-primary-dark, 0.8) , rgba($color-primary-light, 0.8)), 
+                      url(../../img/nat-4.jpg);
+}
