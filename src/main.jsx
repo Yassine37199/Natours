@@ -5,7 +5,7 @@ import nat1 from './img/nat-1-large.jpg';
 import nat2 from './img/nat-2-large.jpg';
 import nat3 from './img/nat-3-large.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobeEurope } from '@fortawesome/free-solid-svg-icons'
+import { faGlobeEurope , faCompass, faMap , faHeart } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -60,6 +60,36 @@ const MainPage = () => (
                         <div className="feature-box u-center-text ">
                             <FontAwesomeIcon icon={faGlobeEurope} className="feature-box__icon" />
                             <h3 className="heading-tertiary u-margin-bottom-small">Explore the world</h3>
+                            <p className="feature-box__text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis harum voluptates pariatur accusamus veniam maxime porro natus.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="col-1-of-4">
+                        <div className="feature-box u-center-text ">
+                            <FontAwesomeIcon icon={faCompass} className="feature-box__icon" />
+                            <h3 className="heading-tertiary u-margin-bottom-small">meet nature</h3>
+                            <p className="feature-box__text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis harum voluptates pariatur accusamus veniam maxime porro natus.
+                            </p>
+                        </div>
+                    </div>
+ 
+                    <div className="col-1-of-4">
+                        <div className="feature-box u-center-text ">
+                            <FontAwesomeIcon icon={faMap} className="feature-box__icon" />
+                            <h3 className="heading-tertiary u-margin-bottom-small">find your way</h3>
+                            <p className="feature-box__text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis harum voluptates pariatur accusamus veniam maxime porro natus.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="col-1-of-4">
+                        <div className="feature-box u-center-text ">
+                            <FontAwesomeIcon icon={faHeart} className="feature-box__icon" />
+                            <h3 className="heading-tertiary u-margin-bottom-small">live a healthier life</h3>
                             <p className="feature-box__text">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis harum voluptates pariatur accusamus veniam maxime porro natus.
                             </p>
