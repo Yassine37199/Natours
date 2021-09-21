@@ -97,6 +97,43 @@ const MainPage = () => (
                     </div>
                 </div>
             </section>
+
+            <section className="section-tours">
+                <div className="u-center-text u-margin-bottom-large">
+                        <h2 className="heading-secondary">
+                            most popular tours
+                        </h2>
+                </div>
+                <div className="row">
+                    <div className="col-1-of-3">
+                        <div className="card">
+                            <div className="card__side card__side--front">
+                                FRONt
+                            </div>
+                            <div className="card__side card__side--back card__side--back-1">
+                                BACK
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="col-1-of-3">
+
+                    <div className="card">
+                            <div className="card__side card__side--front">
+                                FRONt
+                            </div>
+                            <div className="card__side card__side--back card__side--back-2">
+                                BACK
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div className="col-1-of-3">
+
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
 )
