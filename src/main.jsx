@@ -4,6 +4,7 @@ import logo from './img/logo-white.png';
 import nat1 from './img/nat-1-large.jpg';
 import nat2 from './img/nat-2-large.jpg';
 import nat3 from './img/nat-3-large.jpg';
+import nat8 from './img/nat-8.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobeEurope , faCompass, faMap , faHeart } from '@fortawesome/free-solid-svg-icons'
 
@@ -127,18 +128,108 @@ const MainPage = () => (
                                 </div>
                             </div>
                             <div className="card__side card__side--back card__side--back-1">
-                                BACK
+                                <div className="card__cta u-center-text">
+                                    <div className="card__price-box u-margin-bottom-large">
+                                        <p className="card__price-only">Only</p>
+                                        <p className="card__price-value">$297</p>
+                                    </div>
+                                    <a href="#" className="btn btn-white">Book Now !!</a>
+                                </div>
                             </div>
 
                         </div>
                     </div>
                     <div className="col-1-of-3">
 
+                        <div className="card">
+                                <div className="card__side card__side--front">
+                                    <div className="card__picture card__picture--2">
+                                        &nbsp;
+                                    </div>
+                                    <h4 className="card__heading">
+                                        <span className="card__heading-span--2">
+                                            The Forest Hiker   
+                                        </span>
+                                    </h4>
+                                    <div className="card__details">
+                                        <ul className="u-center-text">
+                                            <li>7 day tours</li>
+                                            <li>Up to 40 people</li>
+                                            <li>6 tour guides</li>
+                                            <li>Sleep in provided tents</li>
+                                            <li>Difficulty : medium</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="card__side card__side--back card__side--back-2">
+                                    <div className="card__cta u-center-text">
+                                        <div className="card__price-box u-margin-bottom-large">
+                                            <p className="card__price-only">Only</p>
+                                            <p className="card__price-value">$485</p>
+                                        </div>
+                                        <a href="#" className="btn btn-white">Book Now !!</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
                     </div>
                     <div className="col-1-of-3">
 
+                    <div className="card">
+                                <div className="card__side card__side--front">
+                                    <div className="card__picture card__picture--3">
+                                        &nbsp;
+                                    </div>
+                                    <h4 className="card__heading">
+                                        <span className="card__heading-span--3">
+                                            The Snow Adventurer  
+                                        </span>
+                                    </h4>
+                                    <div className="card__details">
+                                        <ul className="u-center-text">
+                                            <li>5 day tours</li>
+                                            <li>Up to 15 people</li>
+                                            <li>3 tour guides</li>
+                                            <li>Sleep in provided tents</li>
+                                            <li>Difficulty : hard</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="card__side card__side--back card__side--back-3">
+                                    <div className="card__cta u-center-text">
+                                        <div className="card__price-box u-margin-bottom-large">
+                                            <p className="card__price-only">Only</p>
+                                            <p className="card__price-value">$897</p>
+                                        </div>
+                                        <a href="#" className="btn btn-white">Book Now !!</a>
+                                    </div>
+                                </div>
+
+                            </div>
                     </div>
                 </div>
+                <div className="u-center-text">
+                    <a href="#" className="btn btn--green">Discover All Tours</a>       
+                </div>
+            </section>
+            <section className="section-stories">
+                <div className="u-center-text u-margin-bottom-large">
+                    <h2 className="heading-secondary">
+                        We make people genuinely happy
+                    </h2>
+                </div>
+                <div className="row">
+                        <div className="story">
+                            <figure className="story__shape">
+                                <img src={nat8} alt="Person on a Tour" className="story__image" />
+                            </figure>
+                            <div className="story__text">
+                                <h3 className="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio corporis voluptatibus labore repellendus quidem aliquam quo in! Excepturi voluptates, repellendus nam praesentium aperiam delectus voluptas ad veritatis natus, dolorem consequatur!</p>
+                            </div>
+                        </div>
+                </div>            
             </section>
         </main>
     </div>
