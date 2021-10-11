@@ -5,6 +5,7 @@ import nat1 from './img/nat-1-large.jpg';
 import nat2 from './img/nat-2-large.jpg';
 import nat3 from './img/nat-3-large.jpg';
 import nat8 from './img/nat-8.jpg';
+import nat9 from './img/nat-9.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobeEurope , faCompass, faMap , faHeart } from '@fortawesome/free-solid-svg-icons'
 
@@ -223,13 +224,35 @@ const MainPage = () => (
                         <div className="story">
                             <figure className="story__shape">
                                 <img src={nat8} alt="Person on a Tour" className="story__image" />
+                                <figcaption className="story__caption">
+                                    Mary Smith
+                                </figcaption>
                             </figure>
                             <div className="story__text">
                                 <h3 className="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio corporis voluptatibus labore repellendus quidem aliquam quo in! Excepturi voluptates, repellendus nam praesentium aperiam delectus voluptas ad veritatis natus, dolorem consequatur!</p>
                             </div>
                         </div>
-                </div>            
+                </div> 
+
+                 <div className="row">
+                        <div className="story">
+                            <figure className="story__shape">
+                                <img src={nat9} alt="Person on a Tour" className="story__image" />
+                                <figcaption className="story__caption">
+                                    Jack Wilson
+                                </figcaption>
+                            </figure>
+                            <div className="story__text">
+                                <h3 className="heading-tertiary u-margin-bottom-small">My Life is completely different now</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio corporis voluptatibus labore repellendus quidem aliquam quo in! Excepturi voluptates, repellendus nam praesentium aperiam delectus voluptas ad veritatis natus, dolorem consequatur!</p>
+                            </div>
+                        </div>
+                </div>
+
+                <div className="u-center-text">
+                    <a href="#" className="btn-text">Read all stories &rarr; </a>       
+                </div>          
             </section>
         </main>
     </div>
