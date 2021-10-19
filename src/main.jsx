@@ -6,6 +6,8 @@ import nat2 from './img/nat-2-large.jpg';
 import nat3 from './img/nat-3-large.jpg';
 import nat8 from './img/nat-8.jpg';
 import nat9 from './img/nat-9.jpg';
+import videoMP4 from './img/video.mp4';
+import videoWebm from './img/video.webm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobeEurope , faCompass, faMap , faHeart } from '@fortawesome/free-solid-svg-icons'
 
@@ -215,6 +217,15 @@ const MainPage = () => (
                 </div>
             </section>
             <section className="section-stories">
+
+                <div className="bg-video">
+                    <video className="bg-video__content" autoPlay muted loop>
+                        <source src={videoMP4} type="video/mp4"/>
+                        <source src={videoWebm} type="video/webm"/>
+                        Your browser does not support this video
+                    </video>
+                </div>
+
                 <div className="u-center-text u-margin-bottom-large">
                     <h2 className="heading-secondary">
                         We make people genuinely happy
@@ -251,7 +262,9 @@ const MainPage = () => (
                 </div>
 
                 <div className="u-center-text">
-                    <a href="#" className="btn-text">Read all stories &rarr; </a>       
+                    <a href="#" className="btn-text">
+                        Read all stories &rarr; 
+                    </a>       
                 </div>          
             </section>
         </main>
