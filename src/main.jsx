@@ -267,6 +267,32 @@ const MainPage = () => (
                     </a>       
                 </div>          
             </section>
+
+
+            <section className="section-booking">
+                <div className="row">
+                    <div className="book">
+                        <div className="book__form">
+                            <div className=" u-margin-bottom-medium">
+                                <h2 className="heading-secondary">
+                                    Start booking now
+                                </h2>
+                            </div>
+                            <form action="#" className="form">
+                                <div className="form__group">
+                                    <input type="text" className="form__input" placeholder="Full Name" id="name" required/>
+                                    <label className="form__label" for="name">Full Name</label>
+                                </div>
+
+                                <div className="form__group">
+                                    <input type="email" className="form__input" placeholder="Email Adress" id="email" required/>
+                                    <label className="form__label" for="email">Email Adress</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
 )
