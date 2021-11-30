@@ -10,27 +10,29 @@ import GreenLogo from './img/logo-green-2x.png';
 import videoMP4 from './img/video.mp4';
 import videoWebm from './img/video.webm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobeEurope , faCompass, faMap , faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faGlobeEurope , faCompass, faMap , faHeart, faBars } from '@fortawesome/free-solid-svg-icons'
 
 
 
-
+ 
  
 const MainPage = () => (
     <div>
         
         <div className="navigation">
             <input type="checkbox" className="navigation__checkbox" id="navi-toggle" />
-            <label htmlFor="navi-toggle" className="navigation__button">Menu</label>
+            <label htmlFor="navi-toggle" className="navigation__button">
+                <FontAwesomeIcon icon={faBars} className="navigation__icon" />
+            </label>
 
             <div className="navigation__background">&nbsp;</div>
             <nav className="navigation__nav">
                 <ul className="navigation__list">
-                    <li className="navigation__item"><a href="/" className="navigation__link">About Natours</a></li>
-                    <li className="navigation__item"><a href="/" className="navigation__link">Your benefits</a></li>
-                    <li className="navigation__item"><a href="/" className="navigation__link">Popular tours</a></li>
-                    <li className="navigation__item"><a href="/" className="navigation__link">Stories</a></li>
-                    <li className="navigation__item"><a href="/" className="navigation__link">Book now</a></li>
+                    <li className="navigation__item"><a href="/" className="navigation__link"><span>01</span>About Natours</a></li>
+                    <li className="navigation__item"><a href="/" className="navigation__link"><span>02</span>Your benefits</a></li>
+                    <li className="navigation__item"><a href="/" className="navigation__link"><span>03</span>Popular tours</a></li>
+                    <li className="navigation__item"><a href="/" className="navigation__link"><span>04</span>Stories</a></li>
+                    <li className="navigation__item"><a href="/" className="navigation__link"><span>05</span>Book now</a></li>
                 </ul>
             </nav>
         </div>
